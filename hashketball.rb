@@ -215,7 +215,7 @@ def player_stats(player_name)
   statas
 end
 
-
+def 
   max_shoe = 0
   num_rebounds = 0
   game_hash.each do |place, team|
