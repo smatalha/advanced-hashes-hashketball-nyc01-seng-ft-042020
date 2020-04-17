@@ -202,6 +202,7 @@ def player_stats(player_name)
         value.each do |player|
           
           if  player[:player_name] == player_name
+            p 
             # statas = player.delete_if do |k, v|
             #   k == :player_name
               
