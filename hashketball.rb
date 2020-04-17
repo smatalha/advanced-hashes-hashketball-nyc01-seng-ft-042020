@@ -194,7 +194,7 @@ end
 
 
 def player_stats(player_name)
-  statas = {}
+  # stats = {}
   game_hash.each do |place, team|
     team.each do |key, value|
       
@@ -202,8 +202,8 @@ def player_stats(player_name)
         value.each do |player|
           
           if  player[:player_name] == player_name
-            p 
-            # statas = player.delete_if do |k, v|
+            return player
+            # stats = player.delete_if do |k, v|
             #   k == :player_name
               
              end
@@ -213,7 +213,7 @@ def player_stats(player_name)
     end
   end
 
-  statas
+  # stats
 end
 
 
